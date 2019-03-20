@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index()
   index = gets.strip
-  index.to_i
+  index = index.to_i
   index = index + 1
   puts index
 end
